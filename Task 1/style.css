@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: #4E888F;
+}
+
+.main {
+    background-image: url(desktop-wallpaper-portfolio-backgrounds-101-in-portfolio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 90vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    top: 0;
+    position: sticky;
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+    color: white;
+    background-color: #4E888F;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    justify-content: space-around;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navbar img {
+    margin-left: 50px;
+    border-radius: 3px;
+    position: relative;
+    z-index: 10;
+    /* margin-top: 30px; */
+}
+
+.wlc {
+    font-size: 35px;
+    padding-left: 110px;
+    font-weight: 700;
+    font-style: italic;
+    display: flex;
+    justify-content: space-evenly;
+    width: 65rem;
+}
+
+.option {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    color: #b2e3e9;
+}
+
+.navbar-2 {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    float: inline-end;
+    margin-right: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.navbar-2:hover {
+    color: #5d9ba3;
+}
+
+.navbar-2 .lcn {
+    font-size: 20px;
+}
+
+.navbar-2 .plc {
+    height: 20px;
+    display: flex;
+
+}
+
+.navbar-2 img {
+    padding-left: 5px;
+}
+
+.intro {
+    display: flex;
+    width: 80vw;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.icon{
+    cursor: pointer;
+}
+.intro1 {
+    height: 60vh;
+    width: 60vw;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: white;
+}
+
+.hlo {
+    font-size: 80px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.para {
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+}
+
+.para img {
+    height: 50vh;
+    width: auto;
+    margin-left: 80px;
+    border-radius: 2px;
+    margin-top: 13px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+}
+
+.head {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.skill-sec {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.skill-sec p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.skilll {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.skilpara {
+    width: 40vw;
+    float: right;
+}
+
+.skilimg {
+    width: 40vw;
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    row-gap: 50px;
+    color: white;
+    font-weight: 500;
+    font-display: below;
+}
+
+.project {
+    height: 1000px;
+    width: 90vw;
+    border-top: 2px solid white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 450px;
+    margin-bottom: 1290px;
+
+}
+
+.prj {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+.amazon {
+    padding-top: 50px;
+}
+
+.project video {
+    position: absolute;
+    width: 60vw;
+
+}
+
+.amazon div {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 7px;
+    padding-top: 250px;
+}
+
+.netflix {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 400px;
+}
+
+.netflix p {
+    margin-right: 1250px;
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    padding-top: 250px;
+
+}
+
+.ultraedit {
+    display: flex;
+    margin-top: 400px;
+
+}
+
+.ultraedit div {
+    margin-left: 1190px;
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 7px;
+    padding-top: 250px;
+}
+
+.resume {
+    height: 550px;
+    width: 90vw;
+    border-top: 2px solid white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 450px;
+}
+
+.rsm {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+.rsmbody p {
+    width: 1700px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rsmbody {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 250px;
+
+}
+
+.dwnl {
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    padding-top: 70px;
+}
+
+.dwnl button {
+    height: 85px;
+    width: 580px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #a3d8df;
+    color: #143135;
+    text-decoration: none;
+}
+
+.dwnl button a {
+    text-decoration: none;
+    color: #143135;
+}
+
+.dwnl button a:hover {
+    background-color: #143135;
+    color: white;
+    text-decoration: none;
+}
+
+.dwnl button:hover {
+    background-color: #143135;
+    color: white;
+    text-decoration: none;
+}
+.contact{
+    border-top: 2px solid white;
+    width: 90vw;
+    height: 480px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.cnt{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.cont{
+    color: white;
+    display: flex;
+    font-weight: 600;
+font-size: 20px;
+padding-bottom: 10px;
+}
+footer{
+    border-top: 2px solid white;
+    width: 90vw;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    color: white; 
+    font-weight: 500;
+
+}
