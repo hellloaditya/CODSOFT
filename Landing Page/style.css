@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+.nvbr {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: #8d2828;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 900;
+    margin-right: 20em;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.items:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.bckimg {
+    background-image: url(Membership_2020-1-1640x598.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 700px;
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bckimg2 {
+    background-image: url(PISE-July-21-2023-┬⌐KevinLightPhoto-_EV15054-scaled-1350x900.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: round;
+    position: relative;
+
+}
+
+.bckimg2 .imgg {
+    opacity: 0.77;
+    background-color: black;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 30px;
+}
+.hero> :nth-child(2) {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.hero> :nth-child(3) {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.hero> :nth-child(4) {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.hero> :nth-child(5) {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.hero button{
+    padding: 23px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+}
+.hero button:hover{
+    background-color: cadetblue;
+    color: black;
+    cursor: pointer;
+}
